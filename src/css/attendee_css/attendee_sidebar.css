@@ -1,0 +1,65 @@
+.sidebar {
+    width: 350px;
+    background-color: #0B52BD;
+    color: white;
+    padding: 2rem;
+    padding-top: 20rem;
+    transition: width 0.3s ease;
+
+    .page-btns {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        text-align: start;
+        outline: none;
+        padding-top: 20px;
+        padding-left: 5px;
+        margin-bottom: 40px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        width: 380px;
+        height: 65px;
+        border: 1px solid #0B52BD;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        .dash-icon {
+            font-size: 24px;
+        }
+
+        .label {
+            font-size: 18px;
+        }
+    }
+
+    .page-btns:hover,
+    .page-btns.active {
+        background-color: #D4F1F4;
+        color: rgb(3, 3, 121);
+        opacity: 0.6;
+    }
+
+    /* --------- Media Query for Tablets and Mobile --------- */
+    @media (max-width: 768px) {
+        width: 100px;
+        /* shrink sidebar on smaller devices */
+        padding: 1rem;
+        padding-top: 5rem;
+
+        .page-btns {
+            width: 80px;
+            margin-left: 0;
+            justify-content: center;
+            /* center icons */
+            padding-left: 0;
+
+            .label {
+                display: none;
+            }
+        }
+    }
+}

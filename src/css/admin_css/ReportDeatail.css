@@ -1,0 +1,83 @@
+/* Container and Layout */
+.report-container {
+    height: 100vh;
+    background-color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  .report-header {
+    background-color: #0052cc;
+    padding: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Content Layout */
+  .report-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+  }
+  
+  /* Image Section */
+  .image-box {
+    width: 300px;
+    height: 200px;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-placeholder {
+    font-size: 48px;
+    color: #bbb;
+  }
+  
+  /* Text Section */
+  .text-section {
+    max-width: 500px;
+  }
+  
+  .text-section h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .text-section .date {
+    color: #888;
+    margin-bottom: 16px;
+  }
+  
+  .text-section p {
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Button */
+  .done-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .done-button:hover {
+    background-color: #0056b3;
+  }
+  

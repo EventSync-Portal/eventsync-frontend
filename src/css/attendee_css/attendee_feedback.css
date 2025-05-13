@@ -1,0 +1,192 @@
+.attendee-feedback-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    .attendee-feedback-side {
+        display: flex;
+        flex: 3;
+        overflow: hidden;
+    }
+
+    .attendee-feedback-content {
+        position: relative;
+        flex: 1;
+        padding: 1rem;
+        overflow-y: auto;
+        background-color: green;
+
+    }
+}
+
+.a-feedback-form-container {
+    background-color: #ADDBE6;
+    margin-top: 2.5rem;
+    overflow-y: auto;
+    border: 1px solid #ADDBE6;
+    border-radius: 20px;
+    padding: 1rem;
+
+    .a-feedback-form-heading {
+        text-align: center;
+        font-size: 3rem;
+        margin: 1.5rem 0;
+    }
+
+    .a-feedback-form-exp {
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 1rem;
+    }
+
+    .a-feedback-question {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 3rem;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+        padding: 1rem;
+        margin: 2rem auto;
+        width: 90%;
+        max-width: 1000px;
+        flex-wrap: wrap;
+    }
+
+    .a-question-text {
+        flex: 1 1 100%;
+        word-wrap: break-word;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .likert-scale {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        width: 100%;
+    }
+
+    .likert-option {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .likert-option span {
+        margin-bottom: 0.3rem;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .likert-scale input[type="radio"] {
+        transform: scale(1.5);
+        margin: 0 5px;
+        accent-color: #2196F3;
+        cursor: pointer;
+    }
+}
+
+.suggestion-box {
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 1000px;
+
+    .sugg-label {
+        font-size: 1.5rem;
+    }
+
+    .sugg-inp-area {
+        width: 100%;
+        border: 1px solid #D4F1F4;
+        border-radius: 20px;
+        padding: 1rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+        resize: vertical;
+    }
+}
+
+.a-feedback-btn {
+    display: block;
+    margin: 2rem auto;
+    height: 3rem;
+    width: 80%;
+    max-width: 300px;
+    border: 1px solid #2196F3;
+    border-radius: 30px;
+    background-color: #2196F3;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.a-feedback-btn:hover {
+    border: 1px solid #D4F1F4;
+    background-color: #D4F1F4;
+    color: #2196F3;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
+    .a-feedback-form-container {
+        .a-feedback-form-heading {
+            font-size: 2.5rem;
+        }
+
+        .a-feedback-form-exp {
+            font-size: 1.2rem;
+        }
+
+        .a-question-text {
+            font-size: 1.2rem;
+        }
+
+        .likert-option span {
+            font-size: 1rem;
+        }
+    }
+
+    .a-feedback-btn {
+        font-size: 1rem;
+    }
+
+    .sugg-label {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .a-feedback-form-container {
+        .a-feedback-form-heading {
+            font-size: 2rem;
+        }
+
+        .a-feedback-form-exp {
+            font-size: 1rem;
+        }
+
+        .a-question-text {
+            font-size: 1rem;
+        }
+
+        .likert-scale {
+            gap: 1rem;
+        }
+
+        .likert-scale input[type="radio"] {
+            transform: scale(1.2);
+        }
+    }
+
+    .a-feedback-btn {
+        font-size: 1rem;
+        height: 2.5rem;
+    }
+
+    .sugg-inp-area {
+        font-size: 0.9rem;
+    }
+}

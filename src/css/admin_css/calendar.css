@@ -1,0 +1,76 @@
+.schedul-display {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+.building-dropdown label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#building-select {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.day-title {
+  color: #2196F3;
+  margin-top: 30px;
+}
+
+.schedul-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.schedul-table th,
+.schedul-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.schedul-table th {
+  background-color: #2196F3;
+  color: white;
+}
+
+.class-card {
+  background-color: #e3f2fd;
+  border-left: 5px solid #2196F3;
+  padding: 10px;
+  border-radius: 4px;
+ 
+}
+
+.free-text {
+  cursor: pointer;
+}
+
+.free-text:hover {
+  text-decoration: underline;
+}
+
+.edit-form input {
+  margin: 5px 0;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid ;
+  border-radius: 4px;
+}
+
+.edit-form button {
+  background-color: #2196F3;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  margin-top: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-form button:hover {
+  background-color: #1976D2;
+}

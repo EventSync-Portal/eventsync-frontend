@@ -1,0 +1,191 @@
+/* Branding Customization */
+.branding-container {
+  padding: 30px;
+  background-color: #f9fafb;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.branding-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #0d47a1;
+  font-size: 18px;
+}
+
+.branding-title {
+  text-align: center;
+  color: rgb(7, 7, 7);
+  font-size: 28px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.branding-content {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Left Section */
+.branding-left {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 300px;
+}
+
+.branding-field {
+  margin-bottom: 25px;
+}
+
+.branding-field label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  appearance: none;
+  font-size: 14px;
+}
+
+.select-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #888;
+}
+
+/* Upload Logo */
+.upload-wrapper {
+  margin-top: 10px;
+}
+
+#logo-upload {
+  display: none;
+}
+
+.upload-button {
+  background-color: rgb(124, 126, 128);
+  color: white;
+  padding: 10px 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Buttons */
+.approve-button,
+.reject-button,
+.back-menu-button {
+  background-color: #4caf50; /* default green for approve */
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  margin: 20px auto 0 auto; /* center the button */
+  cursor: pointer;
+  display: block; /* make margin auto work */
+  width: fit-content;
+  min-width: 150px;
+  text-align: center;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+/* Specific button colors */
+.reject-button {
+  background-color: #f44336;
+}
+
+.reject-button:hover {
+  background-color: #e53935;
+}
+
+.approve-button:hover {
+  background-color: #45a049;
+}
+
+.back-menu-button {
+  background-color: #0d47a1;
+}
+
+.back-menu-button:hover {
+  background-color: #1565c0;
+}
+
+/* Button hover effect */
+.approve-button:hover,
+.reject-button:hover,
+.back-menu-button:hover {
+  transform: scale(1.05); /* small zoom on hover */
+}
+
+/* Right Section */
+.branding-right {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 300px;
+  text-align: center;
+}
+
+.logo-preview {
+  margin-top: 20px;
+  height: 200px;
+  width: 200px;
+  border: 2px dashed #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.logo-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Footer */
+.branding-footer {
+  margin-top: 50px;
+  text-align: center;
+}

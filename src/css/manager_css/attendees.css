@@ -1,0 +1,80 @@
+.attendees-container {
+    background-color: #ffffff;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .attendees-header {
+    display: flex;
+    align-items: center;
+    background-color: #0d47a1;
+    padding: 15px;
+    color: white;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .attendees-title {
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .event-name {
+    margin: 20px 0;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .attendees-table {
+    margin: 20px auto;
+    width: 90%;
+  }
+  
+  .attendees-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 3fr;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .header-row {
+    font-weight: bold;
+    background-color: #ccc;
+    padding: 10px 0;
+  }
+  
+  .column {
+    background-color: #f0f0f0;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .menu-button {
+    display: block;
+    background: linear-gradient(to right, #2196f3, #0d47a1);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    margin: 30px auto 0;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .menu-page {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
